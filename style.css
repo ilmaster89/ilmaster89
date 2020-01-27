@@ -1,0 +1,22 @@
+body{
+    background-color: darkmagenta;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+p{
+    color: violet;
+    font-size: 20px;
+    font-family: monospace;
+    text-decoration: line-through;
+}
+
+ul{
+    background-color: grey;
+    font-size: 15px;
+    text-decoration: overline;
+}
