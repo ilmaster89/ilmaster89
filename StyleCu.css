@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    width: 75%;
+    min-width: 700px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+
+
+/*   codice per testata curriculum   */
+
+header{
+    height: 100px;
+    border-bottom: 2px solid rgb(0, 255, 234);
+    /*border: 2px solid black;*/
+}
+
+#nome {
+    float: left;
+    padding-left: 5%;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    font-family: "Ink Free", Snell, sans-serif;
+    letter-spacing: .2em;
+}
+
+#testaInfo{
+    float: right;
+    max-height: 100px;
+    padding-right: 5%;
+    text-align: left;
+}
+
+#testaInfo ul{
+    list-style: none;
+}
+
+span{
+    font-size: 1.2em;
+    font-weight: 900;
+}
+header li{
+    color: cornflowerblue;
+    font-style: italic;
+}
+
+
+/*      codice per sezione di SINISTRA
+        contiene foto, istruzione, abilità, realizzazioni*/
+
+#sezSinistra{
+    float: left;
+    width: 25%;
+    height: 850px;
+    /*border: 2px solid black;*/
+    background-color: rgb(88, 88, 88);
+    color: rgb(201, 201, 201);
+    clear: left;
+}
+
+#fotoMia{
+    height: 200px;
+    /*border: 2px solid black;*/
+}
+
+#fotoMia img{
+    height: 80%;
+    width: 80%;
+    margin-left: 8%;
+    margin-right: 10%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+    border-radius: 100%;
+    border-style: dotted;
+    /*border-color: black;*/
+}
+
+#professione{
+    height: 20px;
+    /*border: 2px solid black;*/
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section #sezSinistra, div{
+    text-align: center;
+}
+
+.accaTre{
+    font-style: oblique;
+    font-size: 1.6em;
+    font-family: monospace;
+}
+
+.istruction{
+    margin-top: 0px;
+}
+.istruction h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.istruction h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.istruction p{
+    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+
+/*  sezione di DESTRA, contiene: descrizine di me, esperienze lavorative    */
+
+#sezDestra{
+    float: right;
+    width: 73%;
+    height: 850px;
+    /*border: 2px solid black;*/
+    background-color:rgb(201, 201, 201);
+    color: rgb(88, 88, 88);
+    clear: right;
+}
+
+#sezDestra h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+#sezDestra h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+#sezDestra p{
+    font-style: italic;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#circaMe{
+    width: 100%;
+    height: 200px;
+    /*border: 2px red  solid;*/
+}
+
+
+
+#espLavorative{
+    height: 500px;
+    width: 100%;
+   /* border: 2px blue  solid;*/
+}
+
+/*
+    codice per il footer, contiene collegamenti ipertestuali e info generiche
+*/
+
+#piePagina{
+    height: 50px;
+    border-top: 2px rgb(0, 255, 234)  solid;
+    clear: both;
+    color: gray;
+}
