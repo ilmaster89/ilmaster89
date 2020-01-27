@@ -17,4 +17,4 @@ def control(min,max,samples)
 	puts "I due array hanno #{found} elementi in comune."
 end
 
-control 1,10000,6000
+control 1,100,5
